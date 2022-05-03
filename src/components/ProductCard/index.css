@@ -1,5 +1,5 @@
 .product-image {
-    width: 230px;
+    width: 250px;
     border-radius: 5px;
 }
 .cost-rating-container {
@@ -19,12 +19,13 @@
     justify-content: center;
     align-items: center;
 }
-.prime-li-style {
-    margin: 10px;
+.prime-li-stylee {
+    margin: 15px;
+    max-width: 250px;
 }
-.title-text {
+.title-textt {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 .brand-text {
     color: #64748b;

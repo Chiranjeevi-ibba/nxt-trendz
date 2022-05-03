@@ -8,6 +8,7 @@ import ProtectedRoute from "./components/ProtectedRoutes";
 import EachProduct from "./components/EachProduct";
 import Payment from "./components/PaymentSuccess";
 import cartContext from "./context/cartContext";
+import NotFound from "./components/NotFound";
 import "./App.css";
 
 const App = () => {
@@ -105,8 +106,11 @@ const App = () => {
             <Route exact path="/products/:id" element={<EachProduct />} />
             <Route exact path="/payment" element={<Payment />} />
             <Route exact path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
+          
         </Routes>
+        
       </cartContext.Provider>
     </Router>
   );
